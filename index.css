@@ -1,0 +1,22 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0px;
+    background: gre;
+}
+#landing {
+    background: url('https://i.redd.it/ctb974ay7a6x.png') no-repeat fixed;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+    color:red;
+}
+#landing h3 {
+    margin:0px
+}
+#projects {
+    color:white;
+    height:400px;
+}
+@keyframes 

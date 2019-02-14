@@ -1,0 +1,152 @@
+* {box-sizing:border-box;}
+        body:hover {
+            background: black;
+        }
+        body {
+        margin:0px;
+        background: black;
+        }
+#footer {
+ color:white;
+ text-align:center;
+ height:100px;
+ font-size:20px;
+ margin-top: 50px;
+}
+#lightsOn, #lightsOff {
+    width:50%;
+    height:200px;
+    text-align:center;
+    display:inline;
+}
+#lightsOn {float:left;}
+#lightsOff {float:right;}
+#lightsOff>button {margin-top:80px;}
+#lightsOn>button {margin-top:80px;}
+
+.btn1 {
+    background: darkgray;
+    border-radius:6% ;
+}
+.btn1:hover {
+    box-shadow: -5px 5px 10px red;
+    animation: mybtn 5s infinite;
+}
+@keyframes mybtn {
+    0% {
+        width:175px;
+        height:29px;
+    }
+    50% {
+        width:250px;
+        height:45px;
+    }
+    100% {
+        width:175px;
+        height:29px;
+    }
+}
+.btn2 {
+    background: darkgray;
+    border-radius:6% ;
+}
+.btn2:hover {
+    box-shadow: 5px 5px 10px blue;
+    animation: mybtn 5s infinite;
+}
+            .container {
+                border:3px solid black;
+                box-shadow: 2%;
+                margin:auto;
+                text-align:center;
+                width:50%;
+                box-sizing: border-box;
+                height:300px ;
+                padding:10px;
+                background: url('https://www.wallpaperup.com/uploads/wallpapers/2013/07/13/117894/8b3a41c8d71f5ba4b92b9d95129e378d-700.jpg');
+                background-size: cover;
+                font-weight: bolder;
+                color:white;
+            }
+            select, button {font-size:20px;}
+            #answer {font-size: 46px;}
+            
+            #space {
+                background: url('https://wallpapersite.com/images/wallpapers/astronaut-2560x1440-surreal-signal-hd-11693.jpg');
+                background-size: 100% 100%;
+                height:700px;
+                width:100%;
+                padding-top: 300px;
+                text-align: center;
+                color:white;
+                
+            }
+            #blastoff {
+                position:absolute;
+                top:100px;
+                left:600px;
+            }
+            #blastoff p {display: inline-flex;}
+            #spaceship {
+                height:105px;
+                float:right;
+                width:105px;
+                position:relative;
+                animation: stars 10s infinite linear ;
+            }
+            @keyframes stars {
+                0% {
+                    top: 0px;
+                    left:0px;
+                }
+                50% {
+                    top:100px;
+                    left:-300px;
+                    transform: rotate(40deg);
+                }
+                75% {
+                    top:-270px;
+                    left:-700px;
+                }
+                85% {
+                    top:-280px;
+                    left:-800px;
+                }
+                100% {
+                    top:-295px;
+                    left:-1500px;
+                }
+            }
+            #navbar {
+            height:50px;
+            width:80%;
+            text-align:center;
+            margin:auto;
+        }
+            a {
+                color:white;
+                text-decoration: none;
+            }
+            a:hover {color:red;}
+            ul {
+                list-style-type: none;
+                padding: 10px;
+                margin: 0px;
+                background: #0f0d48;
+                font-size: x-large;
+                
+            }
+            li {
+                display:inline;
+                margin-left:30px;
+                
+            }
+            /* Media Queries For Mobile Devices */
+            
+            @media screen and (max-width :900px) {
+                .container {
+                    width:100%;
+                    height:auto;
+                    color:yellow;
+                }
+            }

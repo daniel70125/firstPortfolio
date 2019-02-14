@@ -1,0 +1,76 @@
+body {
+    background-color: #F9E9B8;
+    
+    background-size: cover;
+}
+a {
+    display: inline-flex;
+}
+footer>p {
+    padding-top:15px;
+}
+p {
+  height:25%;
+  width:90%;
+  margin:auto;
+}
+#container {
+    border:1px solid red;
+    height: 540px;
+    width:45%;
+    margin: auto;
+    background-image: url('https://previews.123rf.com/images/apostrophe/apostrophe1603/apostrophe160300082/54420687-abstract-brown-background-beige-tan-color-plain-simple-background-with-vintage-grunge-background-tex.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    color:black;
+    margin-top: 10px;
+    overflow:scroll;
+}
+img {
+    height:500px;
+    width:900px;
+}
+footer {
+    
+    height:100px;
+    width:100%;
+    text-align: center;
+    
+}
+#footerlinks {
+    list-style-type: none;
+    display:inline-flex;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Media Queries */
+@media screen and (max-width:860px) {
+    #container {
+        width:100%;
+        height:auto;
+    }
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}

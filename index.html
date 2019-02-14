@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="landingPage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a id="pj" onclick="show()" href="#">Projects</a></li>
+            <li><a href="contactPage.html">Contact Me</a></li>
+        </ul>
+    </div>
+    <div id="projects">
+        <ul>
+            <li><a href="calculator.html">HTML Keyframes/Javascript</a></li>
+            <li><a href="post.html">Poem</a></li>
+            <li><a href="Daycare2.html">Daycare/Cleaning Homepage</a></li>
+            <li><a href="php.html">PHP</a></li>
+        </ul>
+    </div>
+    <div id="intro">
+        <h2 style=font-family:cursive>
+            Hi, you're invited to view some <br> handcoded sites by ME! <br> YAY!!
+        </h2>
+    </div>
+    <div id="footer">
+        
+    <footer>
+         © D.Wright 2019 all rights reserved.
+    </footer>
+    <script>
+        
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#pj").click(function(){
+                $("#projects").fadeIn("slow");
+            });
+        });
+    </script>
+    </div>
+</body>
+</html>

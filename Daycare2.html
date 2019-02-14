@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Title</title>
+    <style>
+        * {box-sizing: border-box;}
+        body {background-image: url("http://gordonhclark.reformed.info/wp-content/uploads/2016/02/Grey-website-background.png");}
+        #wrapper {
+            height:600px;
+            width:80%;
+            margin:auto;
+            margin-top:30px;
+        }
+        .sideBoxes {
+            width:30%;
+            height:95%;
+            display:inline-block;
+            margin:10px;
+            text-align:center;
+            font-size: 20px;
+            
+        }
+        .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+        img {width:80%;}
+        #boxshadow:hover{
+                box-shadow:0px 0px 5px 5px blue;
+                cursor:pointer;
+            }
+            #careshadow:hover {
+                box-shadow:0px 0px 5px 5px red;
+                cursor:pointer;
+            }
+            #choose {box-shadow: 0px 0px 5px 5px;}
+            img {margin-top:10px;}
+            .centerText{
+                text-align:center;
+                font-size:25px;
+                padding:8px;
+                margin-top:155px;
+            }
+            #navbar {
+    height:50px;
+    width:80%;
+    text-align:center;
+    margin:auto;
+}
+            ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    background: grey;
+    font-size: x-large;
+    
+}
+li {
+    display:inline;
+    margin-left:30px;
+    
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+#footer {
+ color:white;
+ text-align:center;
+ height:100px;
+ font-size:20px;
+}
+#mbh2 {
+    color:black;
+    background:transparent ;
+    text-align: center;
+    display: none;
+}
+a:hover {color:red;}
+@media screen and (max-width:1000px) {
+    .sideBoxes {width:100%;float:none;}
+
+#choose {
+    display:none;
+}
+    #mbh2 {
+     display: block;   
+    }
+    #careshadow {
+        float:none;
+        display: block;
+        position: static;
+    }
+    #wrapper {
+        height:auto;
+    }
+}
+
+    </style>
+    
+    
+    <!-- Icon stylesheet below  --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    <div id="mbh2">
+        <h2>Choose Your Service</h2>
+    </div>
+    <div class="clearfix" id="wrapper"> 
+        <div class="sideBoxes" id="boxshadow" style="float:left; clear:left" >
+             <img style="height:163px" src="https://d1z3744m6z2h75.cloudfront.net/aws/fs/770/2722770_oWOU0lmmiZeM7Dz7RRysVecgmnNKUA3D9RSKGIImKo_8zSQqELxmVL3etST_8JrD8-VVIu9hIK3uIJnT4HBbug...jpg" />
+                <h4>Babysitting Club</h4>
+                <p>Highly dependable and adaptable babysitters with an exemplary
+                record of parent and child satisfaction. Able to respond quickly
+                and creatively to unusual or difficult child care situations with
+                flexible scheduling.</p>
+                <p>Location:2500 Uknown Ave. New Orleans, LA 70000</p>
+        </div>
+        <div class="sideBoxes" id="careshadow" style="clear:right; float:right">
+             <img style=height:165px src="https://alienation.biz/wp-content/uploads/2017/08/time-tracking-for-cleaning-service-business-1.jpg"/>
+                <h4>Cleaning Services</h4>
+                <p> Cleaning specialist with experience in machinery repairs,
+                general office/home maintenance procedures, and customer service
+                desires professional cleaning position at ABC company.</p>
+                <p>Location:2500 Uknown Ave. New Orleans, LA 70000</p>
+        </div>
+        <div id="choose" class="sideBoxes" style="margin:10px 30px; border:2px solid">
+                <p  class="centerText">Choose Your Service... <br>
+                <i style="font-size:105px" class="fa fa-arrows-h"></i>
+                </p>
+        </div>
+        </div>
+        <div class="">
+            
+        </div>
+        <div id="footer" >
+        <footer>
+         © D.Wright 2019 all rights reserved.
+    </footer>
+    </div>
+</body>
+</html>
